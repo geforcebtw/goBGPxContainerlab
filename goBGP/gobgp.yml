@@ -1,0 +1,13 @@
+global:
+  config:
+    as: 69000
+    router-id: 3.3.3.3
+neighbors:
+  - config:
+      neighbor-address: 192.168.22.1 # address of the RR
+      peer-as: 69000
+    afi-safis:
+      - config:
+          afi-safi-name: ipv4-unicast # or 'ls' for bgp-ls 
+
+
