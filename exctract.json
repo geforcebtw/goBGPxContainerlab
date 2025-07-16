@@ -1,0 +1,197 @@
+# Example of json extract
+{
+    "1.1.1.1/32": [
+        {
+            "nlri": {
+                "prefix": "1.1.1.1/32"
+            },
+            "age": 1752653113,
+            "best": true,
+            "attrs": [
+                {
+                    "type": 1,
+                    "value": 0
+                },
+                {
+                    "type": 2,
+                    "as_paths": []
+                },
+                {
+                    "type": 3,
+                    "nexthop": "192.168.12.1"
+                },
+                {
+                    "type": 5,
+                    "value": 100
+                },
+                {
+                    "type": 9,
+                    "value": "1.1.1.1"
+                },
+                {
+                    "type": 10,
+                    "value": [
+                        "2.2.2.2"
+                    ]
+                }
+            ],
+            "stale": false,
+            "source-id": "2.2.2.2",
+            "neighbor-ip": "192.168.22.1"
+        }
+    ],
+    "10.10.10.1/32": [
+        {
+            "nlri": {
+                "prefix": "10.10.10.1/32"
+            },
+            "age": 1752653113,
+            "best": true,
+            "attrs": [
+                {
+                    "type": 1,
+                    "value": 0
+                },
+                {
+                    "type": 2,
+                    "as_paths": []
+                },
+                {
+                    "type": 3,
+                    "nexthop": "192.168.12.1"
+                },
+                {
+                    "type": 4,
+                    "metric": 10
+                },
+                {
+                    "type": 5,
+                    "value": 100
+                }
+            ],
+            "stale": false,
+            "source-id": "2.2.2.2",
+            "neighbor-ip": "192.168.22.1"
+        }
+    ],
+    "10.10.10.2/32": [
+        {
+            "nlri": {
+                "prefix": "10.10.10.2/32"
+            },
+            "age": 1752653113,
+            "best": true,
+            "attrs": [
+                {
+                    "type": 1,
+                    "value": 0
+                },
+                {
+                    "type": 2,
+                    "as_paths": []
+                },
+                {
+                    "type": 3,
+                    "nexthop": "192.168.22.1"
+                },
+                {
+                    "type": 5,
+                    "value": 100
+                }
+            ],
+            "stale": false,
+            "source-id": "2.2.2.2",
+            "neighbor-ip": "192.168.22.1"
+        }
+    ],
+    "192.168.12.0/30": [
+        {
+            "nlri": {
+                "prefix": "192.168.12.0/30"
+            },
+            "age": 1752653113,
+            "best": true,
+            "attrs": [
+                {
+                    "type": 1,
+                    "value": 0
+                },
+                {
+                    "type": 2,
+                    "as_paths": []
+                },
+                {
+                    "type": 3,
+                    "nexthop": "192.168.22.1"
+                },
+                {
+                    "type": 5,
+                    "value": 100
+                }
+            ],
+            "stale": false,
+            "source-id": "2.2.2.2",
+            "neighbor-ip": "192.168.22.1"
+        }
+    ],
+    "192.168.22.0/30": [
+        {
+            "nlri": {
+                "prefix": "192.168.22.0/30"
+            },
+            "age": 1752653113,
+            "best": true,
+            "attrs": [
+                {
+                    "type": 1,
+                    "value": 0
+                },
+                {
+                    "type": 2,
+                    "as_paths": []
+                },
+                {
+                    "type": 3,
+                    "nexthop": "192.168.22.1"
+                },
+                {
+                    "type": 5,
+                    "value": 100
+                }
+            ],
+            "stale": false,
+            "source-id": "2.2.2.2",
+            "neighbor-ip": "192.168.22.1"
+        }
+    ],
+    "2.2.2.2/32": [
+        {
+            "nlri": {
+                "prefix": "2.2.2.2/32"
+            },
+            "age": 1752653113,
+            "best": true,
+            "attrs": [
+                {
+                    "type": 1,
+                    "value": 0
+                },
+                {
+                    "type": 2,
+                    "as_paths": []
+                },
+                {
+                    "type": 3,
+                    "nexthop": "192.168.22.1"
+                },
+                {
+                    "type": 5,
+                    "value": 100
+                }
+            ],
+            "stale": false,
+            "source-id": "2.2.2.2",
+            "neighbor-ip": "192.168.22.1"
+        }
+    ]
+}
